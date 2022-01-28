@@ -1,0 +1,585 @@
+.sail{
+    position: absolute;
+    width: 1120px;
+    height:511px ;
+    top: 870px;
+    a{
+        text-decoration: none;
+        color: rgb(138, 136, 136);
+        line-height: 40px;
+            &:hover{
+                transition: .2 s ease all;
+                transform: translateX(5px);
+                color: red;
+            }
+    }
+    .con1{
+        height: 511px;
+        width: 669px;
+        top: 0px;
+        border-radius: 0px;
+        //  background-image: url("../../img/Mask\ Group.png");
+        // background-color: rgb(185, 182, 182);
+        position: absolute;
+        img{
+            position: absolute;
+        }
+        .collection1{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 63px;
+            left: 30px;
+            .modern{
+                font-size: 22px;
+            }
+            .starting{
+                font-size: 20px;
+                color: rgb(101, 212, 11);
+                line-height: 0px;
+            }
+           
+        }
+    }
+    .con2{
+        height: 247px;
+        width: 485px;
+        left: 680px;
+        top: 0px;
+        position: absolute;
+        border-radius: 0px;
+        img{
+            position: absolute;
+        }
+        .collection2{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 52px;
+            left: 24px;
+            .modern{
+                font-size: 22px;
+            }
+            .starting{
+                font-size: 20px;
+                color: rgb(101, 212, 11);
+                line-height: 0px;
+            }
+           
+        }
+    }
+
+    .con3{
+        height: 247px;
+        width: 485px;
+        left: 680px;
+        top: 260px;
+        position: absolute;
+        border-radius: 0px;
+        .collection3{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 37px;
+            left: 24px;
+            .modern{
+                font-size: 22px;
+            }
+            .starting{
+                font-size: 20px;
+                color: rgb(101, 212, 11);
+                line-height: 0px;
+            }
+           
+        }
+    }
+}
+.trending{
+    width: 1150px;
+    height: 50px;
+    position: absolute;
+    top: 1467px;
+    text-align: center;
+    p{
+        font-size: 36px;
+    }
+}
+.best{
+    width: 560px;
+    left: 300px;
+    height: 40px;
+    top: 1542px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    a{
+        font-size: 24px;
+        color: rgb(172, 170, 170);
+        text-decoration: none;
+            &:hover{
+                transition: .2s ease all;
+                color:rgb(101, 212, 11) ;
+            }
+    }
+}
+
+// first section
+.pros{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    top: 1680px;
+    .object{
+
+        &:hover{
+            opacity: .7;
+            .cont{
+                visibility: visible;
+            }
+        }
+        .cont{
+            position: absolute;
+            width: 269px;
+            height: 287px;
+            top: 0px;
+            visibility: hidden;
+            .top{
+                position: absolute;
+                top: 50px;
+                left: 180px;
+            }
+            .middle{
+                position: absolute;
+                top: 100px;
+                left: 180px;
+            }
+            .low{
+                position: absolute;
+                top: 150px;
+                left: 180px;
+            }
+            .buttom{
+                position: absolute;
+                top: 200px;
+                left:180px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .small{
+        position: absolute;
+        display: inline-block;
+        width: 1150px;
+        height: 40px;
+        .new{
+           .new1{
+               top: 0px;
+               position: absolute;
+           }
+           .new2{
+               top: 0px;
+               left: 293px;
+               position: absolute;
+           }
+           .new3{
+               top: 0px;
+               left: 587px;
+               position: absolute;
+           }
+           .new4{
+               position: absolute;
+               top: 0px;
+               left: 880px;
+           }
+        }
+    }
+    .defination{
+        position: absolute;
+        width: 1150px;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+        .pi1{
+            top: 0px;
+            position: absolute;
+        }
+        .pi2{
+            top: 0px;
+            left: 303px;
+            position: absolute;
+        }
+        .pi3{
+            top: 0px;
+            left: 597px;
+            position: absolute;
+        }
+        .pi4{
+            position: absolute;
+            top: 0px;
+            left: 890px;
+        }
+    }
+}
+
+.chairs{
+    width: 1150px;
+    height: 30px;
+    margin-top: 1983px;
+    position: absolute;
+    font-size: 14px;
+    color: rgb(163, 157, 157);
+    ;
+    .chair1{
+        position: absolute;
+    }
+    .chair2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .chair3{
+        left: 587px;
+        position: absolute;
+    }
+    .chair4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.types{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2010px;
+    position: absolute;
+    font-size: 20px;
+    ;
+    .type1{
+        position: absolute;
+    }
+    .type2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .type3{
+        left: 587px;
+        position: absolute;
+    }
+    .type4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.costs{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2046px;
+    position: absolute;
+    font-size: 18px;
+    color: rgb(101, 212, 11);
+    .cost1{
+        position: absolute;
+    }
+    .cost2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .cost3{
+        left: 587px;
+        position: absolute;
+    }
+    .cost4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.dels{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2046px;
+    position: absolute;
+    font-size: 18px;
+    color: grey;
+    .del1{
+        left: 55px;
+        position: absolute;
+    }
+    .del2{
+        top: 0px;
+        left: 345px;
+        position: absolute;
+    }
+    .del3{
+        left: 645px;
+        position: absolute;
+    }
+    .del4{
+        position: absolute;
+        left: 935px;
+    }
+}
+
+.ratings{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2055px;
+    position: absolute;
+   
+    .rating1{
+        left: 195px;
+        position: absolute;
+    }
+    .rating2{
+        top: 0px;
+        left: 490px;
+        position: absolute;
+    }
+    .rating3{
+        left: 785px;
+        position: absolute;
+    }
+    .rating4{
+        position: absolute;
+        left: 1080px;
+    }
+}
+
+// second section
+.favo{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    top: 2112px;
+    .thing{
+
+        &:hover{
+            opacity: .7;
+            .bio{
+                visibility: visible;
+            }
+        }
+        .bio{
+            // background-color: rgb(241, 245, 252);
+            position: absolute;
+            width: 269px;
+            height: 287px;
+            top: 0px;
+            visibility: hidden;
+            .top{
+                position: absolute;
+                top: 50px;
+                left: 180px;
+            }
+            .middle{
+                position: absolute;
+                top: 100px;
+                left: 180px;
+            }
+            .low{
+                position: absolute;
+                top: 150px;
+                left: 180px;
+            }
+            .buttom{
+                position: absolute;
+                top: 200px;
+                left:180px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.little{
+    position: absolute;
+    display: inline-block;
+    width: 1150px;
+    height: 40px;
+    .new{
+       .new1{
+           top: 0px;
+           position: absolute;
+       }
+       .new2{
+           top: 0px;
+           left: 293px;
+           position: absolute;
+       }
+       .new3{
+           top: 0px;
+           left: 587px;
+           position: absolute;
+       }
+       .new4{
+           position: absolute;
+           top: 0px;
+           left: 880px;
+       }
+    }
+}
+.comp{
+    position: absolute;
+    width: 1150px;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    .pi1{
+        top: 0px;
+        left: 10px;
+        position: absolute;
+    }
+    .pi2{
+        top: 0px;
+        left: 303px;
+        position: absolute;
+    }
+    .pi3{
+        top: 0px;
+        left: 597px;
+        position: absolute;
+    }
+    .pi4{
+        position: absolute;
+        top: 0px;
+        left: 890px;
+    }
+}
+
+.sofas{
+width: 1150px;
+height: 30px;
+margin-top: 2415px;
+position: absolute;
+font-size: 14px;
+color: rgb(163, 157, 157);
+;
+.chair1{
+    position: absolute;
+}
+.chair2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.chair3{
+    left: 587px;
+    position: absolute;
+}
+.chair4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.names{
+width: 1150px;
+height: 30px;
+margin-top: 2437px;
+position: absolute;
+font-size: 20px;
+;
+.type1{
+    position: absolute;
+}
+.type2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.type3{
+    left: 587px;
+    position: absolute;
+}
+.type4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.purchs{
+width: 1150px;
+height: 30px;
+margin-top: 2478px;
+position: absolute;
+font-size: 18px;
+color: rgb(101, 212, 11);
+.cost1{
+    position: absolute;
+}
+.cost2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.cost3{
+    left: 587px;
+    position: absolute;
+}
+.cost4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.infs{
+width: 1150px;
+height: 30px;
+margin-top: 2478px;
+position: absolute;
+font-size: 18px;
+color: grey;
+.del1{
+    left: 50px;
+    position: absolute;
+}
+.del2{
+    top: 0px;
+    left: 345px;
+    position: absolute;
+}
+.del3{
+    left: 645px;
+    position: absolute;
+}
+.del4{
+    position: absolute;
+    left: 935px;
+}
+}
+
+.degs{
+width: 1150px;
+height: 30px;
+margin-top: 2490px;
+position: absolute;
+
+.rating1{
+    left: 195px;
+    position: absolute;
+}
+.rating2{
+    top: 0px;
+    left: 492px;
+    position: absolute;
+}
+.rating3{
+    left: 785px;
+    position: absolute;
+}
+.rating4{
+    position: absolute;
+    left: 1080px;
+}
+}

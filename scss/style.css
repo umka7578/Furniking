@@ -1,0 +1,1928 @@
+.sail {
+  position: absolute;
+  width: 1120px;
+  height: 511px;
+  top: 870px;
+}
+.sail a {
+  text-decoration: none;
+  color: #8a8888;
+  line-height: 40px;
+}
+.sail a:hover {
+  transition: 0.2 s ease all;
+  transform: translateX(5px);
+  color: red;
+}
+.sail .con1 {
+  height: 511px;
+  width: 669px;
+  top: 0px;
+  border-radius: 0px;
+  position: absolute;
+}
+.sail .con1 img {
+  position: absolute;
+}
+.sail .con1 .collection1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 63px;
+  left: 30px;
+}
+.sail .con1 .collection1 .modern {
+  font-size: 22px;
+}
+.sail .con1 .collection1 .starting {
+  font-size: 20px;
+  color: #65d40b;
+  line-height: 0px;
+}
+.sail .con2 {
+  height: 247px;
+  width: 485px;
+  left: 680px;
+  top: 0px;
+  position: absolute;
+  border-radius: 0px;
+}
+.sail .con2 img {
+  position: absolute;
+}
+.sail .con2 .collection2 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 52px;
+  left: 24px;
+}
+.sail .con2 .collection2 .modern {
+  font-size: 22px;
+}
+.sail .con2 .collection2 .starting {
+  font-size: 20px;
+  color: #65d40b;
+  line-height: 0px;
+}
+.sail .con3 {
+  height: 247px;
+  width: 485px;
+  left: 680px;
+  top: 260px;
+  position: absolute;
+  border-radius: 0px;
+}
+.sail .con3 .collection3 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 37px;
+  left: 24px;
+}
+.sail .con3 .collection3 .modern {
+  font-size: 22px;
+}
+.sail .con3 .collection3 .starting {
+  font-size: 20px;
+  color: #65d40b;
+  line-height: 0px;
+}
+
+.trending {
+  width: 1150px;
+  height: 50px;
+  position: absolute;
+  top: 1467px;
+  text-align: center;
+}
+.trending p {
+  font-size: 36px;
+}
+
+.best {
+  width: 560px;
+  left: 300px;
+  height: 40px;
+  top: 1542px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+.best a {
+  font-size: 24px;
+  color: #acaaaa;
+  text-decoration: none;
+}
+.best a:hover {
+  transition: 0.2s ease all;
+  color: #65d40b;
+}
+
+.pros {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  top: 1680px;
+}
+.pros .object:hover {
+  opacity: 0.7;
+}
+.pros .object:hover .cont {
+  visibility: visible;
+}
+.pros .object .cont {
+  position: absolute;
+  width: 269px;
+  height: 287px;
+  top: 0px;
+  visibility: hidden;
+}
+.pros .object .cont .top {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+.pros .object .cont .middle {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.pros .object .cont .low {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.pros .object .cont .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+.pros .object .cont:hover {
+  cursor: pointer;
+}
+.pros .small {
+  position: absolute;
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+}
+.pros .small .new .new1 {
+  top: 0px;
+  position: absolute;
+}
+.pros .small .new .new2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.pros .small .new .new3 {
+  top: 0px;
+  left: 587px;
+  position: absolute;
+}
+.pros .small .new .new4 {
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+.pros .defination {
+  position: absolute;
+  width: 1150px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+}
+.pros .defination .pi1 {
+  top: 0px;
+  position: absolute;
+}
+.pros .defination .pi2 {
+  top: 0px;
+  left: 303px;
+  position: absolute;
+}
+.pros .defination .pi3 {
+  top: 0px;
+  left: 597px;
+  position: absolute;
+}
+.pros .defination .pi4 {
+  position: absolute;
+  top: 0px;
+  left: 890px;
+}
+
+.chairs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 1983px;
+  position: absolute;
+  font-size: 14px;
+  color: #a39d9d;
+}
+.chairs .chair1 {
+  position: absolute;
+}
+.chairs .chair2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.chairs .chair3 {
+  left: 587px;
+  position: absolute;
+}
+.chairs .chair4 {
+  position: absolute;
+  left: 880px;
+}
+
+.types {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2010px;
+  position: absolute;
+  font-size: 20px;
+}
+.types .type1 {
+  position: absolute;
+}
+.types .type2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.types .type3 {
+  left: 587px;
+  position: absolute;
+}
+.types .type4 {
+  position: absolute;
+  left: 880px;
+}
+
+.costs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2046px;
+  position: absolute;
+  font-size: 18px;
+  color: #65d40b;
+}
+.costs .cost1 {
+  position: absolute;
+}
+.costs .cost2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.costs .cost3 {
+  left: 587px;
+  position: absolute;
+}
+.costs .cost4 {
+  position: absolute;
+  left: 880px;
+}
+
+.dels {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2046px;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+}
+.dels .del1 {
+  left: 55px;
+  position: absolute;
+}
+.dels .del2 {
+  top: 0px;
+  left: 345px;
+  position: absolute;
+}
+.dels .del3 {
+  left: 645px;
+  position: absolute;
+}
+.dels .del4 {
+  position: absolute;
+  left: 935px;
+}
+
+.ratings {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2055px;
+  position: absolute;
+}
+.ratings .rating1 {
+  left: 195px;
+  position: absolute;
+}
+.ratings .rating2 {
+  top: 0px;
+  left: 490px;
+  position: absolute;
+}
+.ratings .rating3 {
+  left: 785px;
+  position: absolute;
+}
+.ratings .rating4 {
+  position: absolute;
+  left: 1080px;
+}
+
+.favo {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  top: 2112px;
+}
+.favo .thing:hover {
+  opacity: 0.7;
+}
+.favo .thing:hover .bio {
+  visibility: visible;
+}
+.favo .thing .bio {
+  position: absolute;
+  width: 269px;
+  height: 287px;
+  top: 0px;
+  visibility: hidden;
+}
+.favo .thing .bio .top {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+.favo .thing .bio .middle {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.favo .thing .bio .low {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.favo .thing .bio .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+.favo .thing .bio:hover {
+  cursor: pointer;
+}
+
+.little {
+  position: absolute;
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+}
+.little .new .new1 {
+  top: 0px;
+  position: absolute;
+}
+.little .new .new2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.little .new .new3 {
+  top: 0px;
+  left: 587px;
+  position: absolute;
+}
+.little .new .new4 {
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+
+.comp {
+  position: absolute;
+  width: 1150px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+}
+.comp .pi1 {
+  top: 0px;
+  left: 10px;
+  position: absolute;
+}
+.comp .pi2 {
+  top: 0px;
+  left: 303px;
+  position: absolute;
+}
+.comp .pi3 {
+  top: 0px;
+  left: 597px;
+  position: absolute;
+}
+.comp .pi4 {
+  position: absolute;
+  top: 0px;
+  left: 890px;
+}
+
+.sofas {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2415px;
+  position: absolute;
+  font-size: 14px;
+  color: #a39d9d;
+}
+.sofas .chair1 {
+  position: absolute;
+}
+.sofas .chair2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.sofas .chair3 {
+  left: 587px;
+  position: absolute;
+}
+.sofas .chair4 {
+  position: absolute;
+  left: 880px;
+}
+
+.names {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2437px;
+  position: absolute;
+  font-size: 20px;
+}
+.names .type1 {
+  position: absolute;
+}
+.names .type2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.names .type3 {
+  left: 587px;
+  position: absolute;
+}
+.names .type4 {
+  position: absolute;
+  left: 880px;
+}
+
+.purchs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2478px;
+  position: absolute;
+  font-size: 18px;
+  color: #65d40b;
+}
+.purchs .cost1 {
+  position: absolute;
+}
+.purchs .cost2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.purchs .cost3 {
+  left: 587px;
+  position: absolute;
+}
+.purchs .cost4 {
+  position: absolute;
+  left: 880px;
+}
+
+.infs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2478px;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+}
+.infs .del1 {
+  left: 50px;
+  position: absolute;
+}
+.infs .del2 {
+  top: 0px;
+  left: 345px;
+  position: absolute;
+}
+.infs .del3 {
+  left: 645px;
+  position: absolute;
+}
+.infs .del4 {
+  position: absolute;
+  left: 935px;
+}
+
+.degs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2490px;
+  position: absolute;
+}
+.degs .rating1 {
+  left: 195px;
+  position: absolute;
+}
+.degs .rating2 {
+  top: 0px;
+  left: 492px;
+  position: absolute;
+}
+.degs .rating3 {
+  left: 785px;
+  position: absolute;
+}
+.degs .rating4 {
+  position: absolute;
+  left: 1080px;
+}
+
+.round {
+  position: absolute;
+  top: 2557px;
+  left: 563px;
+  border: 3px solid grey;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.round:hover {
+  border: 3px solid green;
+  transition: 0.2 s ease all;
+}
+.round:hover .point {
+  background-color: green;
+}
+.round .point {
+  margin: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.around {
+  position: absolute;
+  top: 2557px;
+  left: 603px;
+  border: 3px solid grey;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.around:hover {
+  border: 3px solid green;
+  transition: 0.2 s ease all;
+}
+.around:hover .stop {
+  background-color: green;
+}
+.around .stop {
+  margin: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.special {
+  margin-top: 2680px;
+  font-size: 36px;
+  margin-left: 450px;
+}
+
+.warderobe {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  height: 249px;
+  top: 2785px;
+}
+
+.rooms {
+  width: 280px;
+  height: 240px;
+  position: absolute;
+  top: 0px;
+}
+.rooms .living {
+  font-size: 22px;
+  margin-top: 28px;
+  margin-left: 24px;
+}
+.rooms .ready {
+  margin-top: 0px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+.rooms .cost1 {
+  color: #65d40b;
+  font-size: 18px;
+  margin-left: 24px;
+}
+.rooms .cost2 {
+  position: absolute;
+  color: #b3b2b2;
+  font-size: 18px;
+  top: 128px;
+  left: 77px;
+}
+.rooms button {
+  position: absolute;
+  top: 125px;
+  left: 146px;
+  width: 91px;
+  padding: 5px 10px;
+  background-color: #65d40b;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.rooms button:hover {
+  transition: 0.2s ease all;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.kitchen {
+  width: 250px;
+  height: 240px;
+  position: absolute;
+  left: 585px;
+  top: 0px;
+}
+.kitchen .living {
+  font-size: 22px;
+  margin-top: 28px;
+  margin-left: 24px;
+}
+.kitchen .ready {
+  margin-top: 0px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+.kitchen .cost1 {
+  color: #65d40b;
+  font-size: 18px;
+  margin-left: 24px;
+}
+.kitchen .cost2 {
+  position: absolute;
+  color: #b3b2b2;
+  font-size: 18px;
+  top: 128px;
+  left: 77px;
+}
+.kitchen button {
+  position: absolute;
+  top: 125px;
+  left: 146px;
+  width: 91px;
+  padding: 5px 10px;
+  background-color: #65d40b;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.kitchen button:hover {
+  transition: 0.2s ease all;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.trend {
+  width: 1150px;
+  height: 50px;
+  position: absolute;
+  top: 3154px;
+  text-align: center;
+}
+.trend p {
+  font-size: 36px;
+}
+
+.great {
+  width: 800px;
+  left: 203px;
+  height: 40px;
+  top: 3244px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+.great a {
+  font-size: 24px;
+  color: #acaaaa;
+  text-decoration: none;
+}
+.great a:hover {
+  transition: 0.2s ease all;
+  color: #65d40b;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  top: 3347px;
+}
+.rectangle .circle:hover {
+  opacity: 0.7;
+}
+.rectangle .circle:hover .cont {
+  visibility: visible;
+}
+.rectangle .circle .cont {
+  position: absolute;
+  width: 269px;
+  height: 287px;
+  top: 0px;
+  visibility: hidden;
+}
+.rectangle .circle .cont .top {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+.rectangle .circle .cont .middle {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.rectangle .circle .cont .low {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.rectangle .circle .cont .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+.rectangle .circle .cont:hover {
+  cursor: pointer;
+}
+.rectangle .triangle {
+  position: absolute;
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+}
+.rectangle .triangle .new .new1 {
+  top: 0px;
+  position: absolute;
+}
+.rectangle .triangle .new .new2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.rectangle .triangle .new .new3 {
+  top: 0px;
+  left: 587px;
+  position: absolute;
+}
+.rectangle .triangle .new .new4 {
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+.rectangle .angle {
+  position: absolute;
+  width: 1150px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+}
+.rectangle .angle .pi1 {
+  top: 0px;
+  left: 10px;
+  position: absolute;
+}
+.rectangle .angle .pi2 {
+  top: 0px;
+  left: 303px;
+  position: absolute;
+}
+.rectangle .angle .pi3 {
+  top: 0px;
+  left: 597px;
+  position: absolute;
+}
+.rectangle .angle .pi4 {
+  position: absolute;
+  top: 0px;
+  left: 890px;
+}
+
+.diamonds {
+  width: 1150px;
+  height: 30px;
+  top: 3650px;
+  position: absolute;
+  font-size: 14px;
+  color: #a39d9d;
+}
+.diamonds .diamond1 {
+  position: absolute;
+}
+.diamonds .diamond2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.diamonds .diamond3 {
+  left: 587px;
+  position: absolute;
+}
+.diamonds .diamond4 {
+  position: absolute;
+  left: 880px;
+}
+
+.stars {
+  width: 1150px;
+  height: 30px;
+  top: 3677px;
+  position: absolute;
+  font-size: 20px;
+}
+.stars .star1 {
+  position: absolute;
+}
+.stars .star2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.stars .star3 {
+  left: 587px;
+  position: absolute;
+}
+.stars .star4 {
+  position: absolute;
+  left: 880px;
+}
+
+.pockets {
+  width: 1150px;
+  height: 30px;
+  top: 3713px;
+  position: absolute;
+  font-size: 18px;
+  color: #65d40b;
+}
+.pockets .pocket1 {
+  position: absolute;
+}
+.pockets .pocket2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.pockets .pocket3 {
+  left: 587px;
+  position: absolute;
+}
+.pockets .pocket4 {
+  position: absolute;
+  left: 880px;
+}
+
+.talkings {
+  width: 1150px;
+  height: 30px;
+  top: 3713px;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+}
+.talkings .talking1 {
+  left: 55px;
+  position: absolute;
+}
+.talkings .talking2 {
+  top: 0px;
+  left: 345px;
+  position: absolute;
+}
+.talkings .talking3 {
+  left: 645px;
+  position: absolute;
+}
+.talkings .talking4 {
+  position: absolute;
+  left: 935px;
+}
+
+.scores {
+  width: 1150px;
+  height: 30px;
+  top: 3722px;
+  position: absolute;
+}
+.scores .score1 {
+  left: 195px;
+  position: absolute;
+}
+.scores .score2 {
+  top: 0px;
+  left: 490px;
+  position: absolute;
+}
+.scores .score3 {
+  left: 785px;
+  position: absolute;
+}
+.scores .score4 {
+  position: absolute;
+  left: 1080px;
+}
+
+.pros {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  top: 1680px;
+}
+.pros .object:hover {
+  opacity: 0.7;
+}
+.pros .object:hover .cont {
+  visibility: visible;
+}
+.pros .object .cont {
+  position: absolute;
+  width: 269px;
+  height: 287px;
+  top: 0px;
+  visibility: hidden;
+}
+.pros .object .cont .top {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+.pros .object .cont .middle {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.pros .object .cont .low {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.pros .object .cont .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+.pros .object .cont:hover {
+  cursor: pointer;
+}
+.pros .small {
+  position: absolute;
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+}
+.pros .small .new .new1 {
+  top: 0px;
+  position: absolute;
+}
+.pros .small .new .new2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.pros .small .new .new3 {
+  top: 0px;
+  left: 587px;
+  position: absolute;
+}
+.pros .small .new .new4 {
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+.pros .defination {
+  position: absolute;
+  width: 1150px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+}
+.pros .defination .pi1 {
+  top: 0px;
+  position: absolute;
+}
+.pros .defination .pi2 {
+  top: 0px;
+  left: 303px;
+  position: absolute;
+}
+.pros .defination .pi3 {
+  top: 0px;
+  left: 597px;
+  position: absolute;
+}
+.pros .defination .pi4 {
+  position: absolute;
+  top: 0px;
+  left: 890px;
+}
+
+.chairs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 1983px;
+  position: absolute;
+  font-size: 14px;
+  color: #a39d9d;
+}
+.chairs .chair1 {
+  position: absolute;
+}
+.chairs .chair2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.chairs .chair3 {
+  left: 587px;
+  position: absolute;
+}
+.chairs .chair4 {
+  position: absolute;
+  left: 880px;
+}
+
+.types {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2010px;
+  position: absolute;
+  font-size: 20px;
+}
+.types .type1 {
+  position: absolute;
+}
+.types .type2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.types .type3 {
+  left: 587px;
+  position: absolute;
+}
+.types .type4 {
+  position: absolute;
+  left: 880px;
+}
+
+.costs {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2046px;
+  position: absolute;
+  font-size: 18px;
+  color: #65d40b;
+}
+.costs .cost1 {
+  position: absolute;
+}
+.costs .cost2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.costs .cost3 {
+  left: 587px;
+  position: absolute;
+}
+.costs .cost4 {
+  position: absolute;
+  left: 880px;
+}
+
+.dels {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2046px;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+}
+.dels .del1 {
+  left: 55px;
+  position: absolute;
+}
+.dels .del2 {
+  top: 0px;
+  left: 345px;
+  position: absolute;
+}
+.dels .del3 {
+  left: 645px;
+  position: absolute;
+}
+.dels .del4 {
+  position: absolute;
+  left: 935px;
+}
+
+.ratings {
+  width: 1150px;
+  height: 30px;
+  margin-top: 2055px;
+  position: absolute;
+}
+.ratings .rating1 {
+  left: 195px;
+  position: absolute;
+}
+.ratings .rating2 {
+  top: 0px;
+  left: 490px;
+  position: absolute;
+}
+.ratings .rating3 {
+  left: 785px;
+  position: absolute;
+}
+.ratings .rating4 {
+  position: absolute;
+  left: 1080px;
+}
+
+.world {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1150px;
+  top: 3779px;
+}
+.world .heaven:hover {
+  opacity: 0.7;
+}
+.world .heaven:hover .cont {
+  visibility: visible;
+}
+.world .heaven .cont {
+  position: absolute;
+  width: 269px;
+  height: 287px;
+  top: 0px;
+  visibility: hidden;
+}
+.world .heaven .cont .top {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+}
+.world .heaven .cont .middle {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+.world .heaven .cont .low {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.world .heaven .cont .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+.world .heaven .cont:hover {
+  cursor: pointer;
+}
+
+.rain {
+  position: absolute;
+  display: inline-block;
+  width: 1150px;
+  height: 40px;
+}
+.rain .new .new1 {
+  top: 0px;
+  position: absolute;
+}
+.rain .new .new2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.rain .new .new3 {
+  top: 0px;
+  left: 587px;
+  position: absolute;
+}
+.rain .new .new4 {
+  position: absolute;
+  top: 0px;
+  left: 880px;
+}
+
+.cloud {
+  position: absolute;
+  width: 1150px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+}
+.cloud .pi1 {
+  top: 0px;
+  left: 10px;
+  position: absolute;
+}
+.cloud .pi2 {
+  top: 0px;
+  left: 303px;
+  position: absolute;
+}
+.cloud .pi3 {
+  top: 0px;
+  left: 597px;
+  position: absolute;
+}
+.cloud .pi4 {
+  position: absolute;
+  top: 0px;
+  left: 890px;
+}
+
+.sunny {
+  width: 1150px;
+  height: 30px;
+  top: 4082px;
+  position: absolute;
+  font-size: 14px;
+  color: #a39d9d;
+}
+.sunny .sun1 {
+  position: absolute;
+}
+.sunny .sun2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.sunny .sun3 {
+  left: 587px;
+  position: absolute;
+}
+.sunny .sun4 {
+  position: absolute;
+  left: 880px;
+}
+
+.snowy {
+  width: 1150px;
+  height: 30px;
+  top: 4104px;
+  position: absolute;
+  font-size: 20px;
+}
+.snowy .snow1 {
+  position: absolute;
+}
+.snowy .snow2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.snowy .snow3 {
+  left: 587px;
+  position: absolute;
+}
+.snowy .snow4 {
+  position: absolute;
+  left: 880px;
+}
+
+.storms {
+  width: 1150px;
+  height: 30px;
+  top: 4145px;
+  position: absolute;
+  font-size: 18px;
+  color: #65d40b;
+}
+.storms .storm1 {
+  position: absolute;
+}
+.storms .storm2 {
+  top: 0px;
+  left: 293px;
+  position: absolute;
+}
+.storms .storm3 {
+  left: 587px;
+  position: absolute;
+}
+.storms .storm4 {
+  position: absolute;
+  left: 880px;
+}
+
+.sunders {
+  width: 1150px;
+  height: 30px;
+  top: 4145px;
+  position: absolute;
+  font-size: 18px;
+  color: grey;
+}
+.sunders .sunder1 {
+  left: 50px;
+  position: absolute;
+}
+.sunders .sunder2 {
+  top: 0px;
+  left: 345px;
+  position: absolute;
+}
+.sunders .sunder3 {
+  left: 645px;
+  position: absolute;
+}
+.sunders .sunder4 {
+  position: absolute;
+  left: 935px;
+}
+
+.presses {
+  width: 1150px;
+  height: 30px;
+  top: 4157px;
+  position: absolute;
+}
+.presses .press1 {
+  left: 195px;
+  position: absolute;
+}
+.presses .press2 {
+  top: 0px;
+  left: 492px;
+  position: absolute;
+}
+.presses .press3 {
+  left: 785px;
+  position: absolute;
+}
+.presses .press4 {
+  position: absolute;
+  left: 1080px;
+}
+
+.next {
+  position: absolute;
+  top: 4234px;
+  width: 161px;
+  height: 41px;
+  background-color: #26b326;
+  color: white;
+  border-style: none;
+  left: 600px;
+}
+.next:hover {
+  opacity: 0.8;
+}
+
+.passage {
+  width: 700px;
+  position: absolute;
+  top: 4380px;
+  left: 360px;
+}
+
+.card {
+  position: absolute;
+  z-index: 1;
+  top: 4515px;
+  left: 170px;
+  width: 816px;
+  height: 312px;
+  background-image: url("../../img/Card.svg");
+}
+.card .easy {
+  padding-left: 125px;
+  padding-top: 80px;
+  padding-right: 125px;
+}
+.card .joly {
+  margin-top: 32px;
+  margin-left: 332px;
+  font-size: 24px;
+}
+.card .co-founder {
+  margin-left: 363px;
+  position: absolute;
+  top: 260px;
+}
+
+.raya {
+  position: absolute;
+  top: 4475px;
+  left: 537px;
+  z-index: 3;
+}
+
+.once {
+  position: absolute;
+  top: 4651px;
+  left: 108px;
+}
+.once:hover {
+  cursor: pointer;
+}
+
+.goon {
+  position: absolute;
+  top: 4651px;
+  left: 1025px;
+}
+.goon:hover {
+  cursor: pointer;
+}
+
+.article {
+  position: absolute;
+  top: 4942px;
+  left: 400px;
+  width: 410px;
+  height: 51px;
+}
+
+.latest1 {
+  position: absolute;
+  top: 5049px;
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  height: 455.28px;
+}
+.latest1 img {
+  z-index: 2;
+}
+.latest1 .inside {
+  position: absolute;
+  top: 5300px;
+  z-index: 7;
+  width: 300px;
+  height: 400px;
+  background-color: aqua;
+}
+
+.latest2 {
+  position: absolute;
+  top: 5520px;
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  height: 455.28px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: #65d40b;
+}
+.menu .text-white {
+  margin-left: 135px;
+  position: absolute;
+}
+.menu .ancer {
+  display: flex;
+  margin-left: 980px;
+  margin-top: 20px;
+  position: absolute;
+  width: 400px;
+}
+.menu .ancer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+}
+.menu .ancer .lang {
+  color: white;
+}
+
+.container1 {
+  left: 100px;
+  position: absolute;
+}
+.container1 .column1 {
+  display: flex;
+  position: absolute;
+}
+.container1 .column1 h3 {
+  margin: 20px;
+}
+.container1 .column1 .input-group {
+  margin-left: 65px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 527px;
+  height: 40px;
+  padding: 10px;
+  outline-style: none;
+  background-image: url("./img/search.svg.white");
+}
+.container1 .column1 .search {
+  position: absolute;
+  margin-left: 581px;
+  top: 19px;
+  padding: 5px;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  outline-style: none;
+  background-color: #65d40b;
+}
+.container1 .column1 .search:hover {
+  cursor: pointer;
+  transition: 0.3s ease all;
+  background-color: #0bc20b;
+}
+.container1 .column1 .imgs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  position: absolute;
+  top: 10px;
+  left: 975px;
+  width: 200px;
+  height: 25px;
+}
+.container1 .column1 .imgs .count {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #65d40b;
+  left: 51px;
+  top: 0px;
+}
+.container1 .column1 .imgs .count p {
+  left: 4px;
+  position: absolute;
+  color: white;
+  font-size: 9px;
+}
+
+.coll {
+  position: absolute;
+  width: 1250px;
+  height: 80px;
+  margin-top: 100px;
+  margin-left: 0px;
+  background-color: #f7f8fa;
+}
+.coll .ul {
+  display: flex;
+  padding: 30px;
+  background-color: #65d40b;
+  width: 260px;
+  height: 100%;
+}
+.coll .ul h6 {
+  margin-left: 20px;
+}
+.coll .list {
+  position: absolute;
+  top: 0px;
+  left: 290px;
+  width: 650px;
+  height: 60px;
+}
+.coll .list ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px 30px 23px 10px;
+}
+.coll .list ul li:hover {
+  background-color: #e2e6ee;
+  transition: 0.2s ease all;
+}
+.coll .list ul li a {
+  text-decoration: none;
+  color: black;
+}
+.coll .list ul li a:hover {
+  transform: translateY(-5px);
+  transform: translateZ(10px);
+  transition: 0.2s ease all;
+  color: red;
+  background-color: brown;
+}
+
+.link {
+  width: 260px;
+  height: 490px;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  background-image: url("../img/Rectangle 24 (1).svg");
+}
+.link ul img {
+  position: absolute;
+  left: 0px;
+}
+.link li {
+  list-style: none;
+  padding: 10px;
+}
+
+.rec26 {
+  width: 879px;
+  height: 470px;
+  background-image: url("../img/Rectangle 26.svg");
+  position: absolute;
+  left: 270px;
+  top: 90px;
+}
+.rec26 .def {
+  width: 320px;
+  height: 360px;
+  margin-top: 73px;
+  margin-left: 47px;
+}
+.rec26 .def .h5 {
+  color: #65d40b;
+  font-size: 22px;
+}
+.rec26 .def .h2 {
+  font-size: 40px;
+}
+.rec26 .def .get {
+  color: grey;
+  font-size: 27px;
+}
+.rec26 .def button {
+  width: 129px;
+  padding: 10px 18px;
+  background-color: #65d40b;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+}
+.rec26 .def button:hover {
+  transition: 0.2s ease all;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.rec26 .furniture1 {
+  position: absolute;
+  width: 374px;
+  height: 374px;
+  margin-left: 351px;
+  top: 36px;
+}
+.rec26 #tabble {
+  width: 98px;
+  height: 91px;
+  background-image: url("../img/Rectangle 31.svg");
+  position: absolute;
+  top: 58px;
+  left: 732px;
+}
+.rec26 #tabble .cost1 {
+  font-size: 11px;
+  color: #65d40b;
+  text-align: center;
+  line-height: 5px;
+}
+.rec26 #tabble .quality {
+  font-size: 7px;
+  text-align: center;
+  line-height: 0px;
+  top: 75px;
+  left: 22px;
+  position: absolute;
+}
+.rec26 #tabble .tabble {
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.rec26 #chair {
+  width: 98px;
+  height: 91px;
+  background-image: url("../img/Rectangle 31.svg");
+  position: absolute;
+  top: 175px;
+  left: 732px;
+}
+.rec26 #chair .cost2 {
+  font-size: 11px;
+  color: #65d40b;
+  text-align: center;
+  line-height: 5px;
+}
+.rec26 #chair .qualityc {
+  font-size: 7px;
+  text-align: center;
+  line-height: 0px;
+  top: 75px;
+  left: 22px;
+  position: absolute;
+}
+.rec26 #chair .chair {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.rec26 #sofa {
+  width: 98px;
+  height: 91px;
+  background-image: url("../img/Rectangle 31.svg");
+  position: absolute;
+  top: 295px;
+  left: 732px;
+}
+.rec26 #sofa .cost3 {
+  font-size: 11px;
+  color: #65d40b;
+  text-align: center;
+  line-height: 5px;
+}
+.rec26 #sofa .qualitys {
+  font-size: 7px;
+  text-align: center;
+  line-height: 0px;
+  top: 75px;
+  left: 22px;
+  position: absolute;
+}
+.rec26 #sofa .sofa {
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.rec26 .points {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  position: absolute;
+  top: 410px;
+  left: 390px;
+}
+.rec26 .points .point1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.rec26 .points .point1:hover {
+  transition: 0.2s ease all;
+  opacity: 1;
+}
+.rec26 .points .point2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.rec26 .points .point2:hover {
+  transition: 0.2s ease all;
+  opacity: 1;
+}
+.rec26 .points .point3 {
+  width: 24px;
+  height: 9px;
+  border-radius: 20px;
+  margin-top: 2px;
+}
+.rec26 .points .point3:hover {
+  transition: 0.2s ease all;
+  opacity: 0.5;
+}
+.rec26 .points .point4 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.rec26 .points .point4:hover {
+  transition: 0.2s ease all;
+  opacity: 1;
+}
+
+.present {
+  display: flex;
+  justify-content: space-between;
+  width: 1190px;
+  height: 100px;
+  position: absolute;
+  top: 720px;
+}
+.present .prez1 {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+.present .prez1 .free {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.present .prez1 .order {
+  position: absolute;
+  top: 50px;
+  font-size: 14px;
+  left: 70px;
+}
+.present .prez2 {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+.present .prez2 .smart {
+  position: absolute;
+  top: 20px;
+  left: 390px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.present .prez2 .buy {
+  position: absolute;
+  top: 50px;
+  font-size: 14px;
+  left: 390px;
+}
+.present .prez3 {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+.present .prez3 .quick {
+  position: absolute;
+  top: 20px;
+  left: 700px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.present .prez3 .secure {
+  position: absolute;
+  top: 50px;
+  font-size: 14px;
+  left: 700px;
+}
+.present .prez4 {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+.present .prez4 .support {
+  position: absolute;
+  top: 20px;
+  left: 1010px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.present .prez4 .fast {
+  position: absolute;
+  top: 50px;
+  font-size: 14px;
+  left: 1010px;
+}
+
+/*# sourceMappingURL=style.css.map */

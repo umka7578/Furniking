@@ -1,0 +1,874 @@
+.round{
+    position: absolute;
+    top: 2557px;
+    left: 563px;
+    border: 3px solid grey;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    &:hover{
+        border: 3px solid green;
+        transition: .2 s ease all;
+        .point{
+            background-color: green;
+        }
+    }
+    .point{
+        margin: 5px;
+        width: 8px;
+        height: 8px;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
+.around{
+    position: absolute;
+    top: 2557px;
+    left: 603px;
+    border: 3px solid grey;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    &:hover{
+        border: 3px solid green;
+        transition: .2 s ease all;
+        .stop{
+            background-color: green;
+        }
+    }
+    .stop{
+        margin: 5px;
+        width: 8px;
+        height: 8px;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
+.special{
+    margin-top: 2680px;
+    font-size: 36px;
+    margin-left:450px;
+}
+
+.warderobe{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    height: 249px;
+    top: 2785px;
+}
+
+.rooms{
+    width: 280px;
+    height: 240px;
+    position: absolute;
+    top:0px;
+    .living{
+        font-size: 22px;
+        margin-top: 28px;
+        margin-left: 24px;
+    }
+    .ready{
+        margin-top: 0px;
+        margin-left: 24px;
+        font-size: 12px;
+    }
+    .cost1{
+        color: rgb(101, 212, 11);
+        font-size: 18px;
+        margin-left: 24px;
+    }
+    .cost2{
+        position: absolute;
+        color: rgb(179, 178, 178);
+        font-size: 18px;
+        top: 128px;
+        left: 77px;
+    }
+    button{
+        position: absolute;
+        top: 125px;
+        left: 146px;
+        width: 91px;
+        padding: 5px 10px;
+        background-color:rgb(101, 212, 11) ;
+        border-style: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 12px;
+        &:hover{
+            transition: .2s ease all;
+            opacity: .8;
+            cursor: pointer;
+        }
+    }
+}
+
+.kitchen{
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    left: 585px;
+    top:0px;
+    .living{
+        font-size: 22px;
+        margin-top: 28px;
+        margin-left: 24px;
+    }
+    .ready{
+        margin-top: 0px;
+        margin-left: 24px;
+        font-size: 12px;
+    }
+    .cost1{
+        color: rgb(101, 212, 11);
+        font-size: 18px;
+        margin-left: 24px;
+    }
+    .cost2{
+        position: absolute;
+        color: rgb(179, 178, 178);
+        font-size: 18px;
+        top: 128px;
+        left: 77px;
+    }
+    button{
+        position: absolute;
+        top: 125px;
+        left: 146px;
+        width: 91px;
+        padding: 5px 10px;
+        background-color:rgb(101, 212, 11) ;
+        border-style: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 12px;
+        &:hover{
+            transition: .2s ease all;
+            opacity: .8;
+            cursor: pointer;
+        }
+    }
+}
+
+.trend{
+    width: 1150px;
+    height: 50px;
+    position: absolute;
+    top: 3154px;
+    text-align: center;
+    p{
+        font-size: 36px;
+    }
+}
+.great{
+    width: 800px;
+    left: 203px;
+    height: 40px;
+    top: 3244px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    a{
+        font-size: 24px;
+        color: rgb(172, 170, 170);
+        text-decoration: none;
+            &:hover{
+                transition: .2s ease all;
+                color:rgb(101, 212, 11) ;
+            }
+    }
+}
+
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    top: 3347px;
+    .circle{
+
+        &:hover{
+            opacity: .7;
+            .cont{
+                visibility: visible;
+            }
+        }
+        .cont{
+            position: absolute;
+            width: 269px;
+            height: 287px;
+            top: 0px;
+            visibility: hidden;
+            .top{
+                position: absolute;
+                top: 50px;
+                left: 180px;
+            }
+            .middle{
+                position: absolute;
+                top: 100px;
+                left: 180px;
+            }
+            .low{
+                position: absolute;
+                top: 150px;
+                left: 180px;
+            }
+            .buttom{
+                position: absolute;
+                top: 200px;
+                left:180px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .triangle{
+        position: absolute;
+        display: inline-block;
+        width: 1150px;
+        height: 40px;
+        .new{
+           .new1{
+               top: 0px;
+               position: absolute;
+           }
+           .new2{
+               top: 0px;
+               left: 293px;
+               position: absolute;
+           }
+           .new3{
+               top: 0px;
+               left: 587px;
+               position: absolute;
+           }
+           .new4{
+               position: absolute;
+               top: 0px;
+               left: 880px;
+           }
+        }
+    }
+    .angle{
+        position: absolute;
+        width: 1150px;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+        .pi1{
+            top: 0px;
+            left: 10px;
+            position: absolute;
+        }
+        .pi2{
+            top: 0px;
+            left: 303px;
+            position: absolute;
+        }
+        .pi3{
+            top: 0px;
+            left: 597px;
+            position: absolute;
+        }
+        .pi4{
+            position: absolute;
+            top: 0px;
+            left: 890px;
+        }
+    }
+}
+
+.diamonds{
+    width: 1150px;
+    height: 30px;
+    top: 3650px;
+    position: absolute;
+    font-size: 14px;
+    color: rgb(163, 157, 157);
+    ;
+    .diamond1{
+        position: absolute;
+    }
+    .diamond2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .diamond3{
+        left: 587px;
+        position: absolute;
+    }
+    .diamond4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.stars{
+    width: 1150px;
+    height: 30px;
+    top: 3677px;
+    position: absolute;
+    font-size: 20px;
+    ;
+    .star1{
+        position: absolute;
+    }
+    .star2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .star3{
+        left: 587px;
+        position: absolute;
+    }
+    .star4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.pockets{
+    width: 1150px;
+    height: 30px;
+    top: 3713px;
+    position: absolute;
+    font-size: 18px;
+    color: rgb(101, 212, 11);
+    .pocket1{
+        position: absolute;
+    }
+    .pocket2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .pocket3{
+        left: 587px;
+        position: absolute;
+    }
+    .pocket4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.talkings{
+    width: 1150px;
+    height: 30px;
+    top: 3713px;
+    position: absolute;
+    font-size: 18px;
+    color: grey;
+    .talking1{
+        left: 55px;
+        position: absolute;
+    }
+    .talking2{
+        top: 0px;
+        left: 345px;
+        position: absolute;
+    }
+    .talking3{
+        left: 645px;
+        position: absolute;
+    }
+    .talking4{
+        position: absolute;
+        left: 935px;
+    }
+}
+
+.scores{
+    width: 1150px;
+    height: 30px;
+    top: 3722px;
+    position: absolute;
+   
+    .score1{
+        left: 195px;
+        position: absolute;
+    }
+    .score2{
+        top: 0px;
+        left: 490px;
+        position: absolute;
+    }
+    .score3{
+        left: 785px;
+        position: absolute;
+    }
+    .score4{
+        position: absolute;
+        left: 1080px;
+    }
+}
+
+.pros{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    top: 1680px;
+    .object{
+
+        &:hover{
+            opacity: .7;
+            .cont{
+                visibility: visible;
+            }
+        }
+        .cont{
+            position: absolute;
+            width: 269px;
+            height: 287px;
+            top: 0px;
+            visibility: hidden;
+            .top{
+                position: absolute;
+                top: 50px;
+                left: 180px;
+            }
+            .middle{
+                position: absolute;
+                top: 100px;
+                left: 180px;
+            }
+            .low{
+                position: absolute;
+                top: 150px;
+                left: 180px;
+            }
+            .buttom{
+                position: absolute;
+                top: 200px;
+                left:180px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .small{
+        position: absolute;
+        display: inline-block;
+        width: 1150px;
+        height: 40px;
+        .new{
+           .new1{
+               top: 0px;
+               position: absolute;
+           }
+           .new2{
+               top: 0px;
+               left: 293px;
+               position: absolute;
+           }
+           .new3{
+               top: 0px;
+               left: 587px;
+               position: absolute;
+           }
+           .new4{
+               position: absolute;
+               top: 0px;
+               left: 880px;
+           }
+        }
+    }
+    .defination{
+        position: absolute;
+        width: 1150px;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+        .pi1{
+            top: 0px;
+            position: absolute;
+        }
+        .pi2{
+            top: 0px;
+            left: 303px;
+            position: absolute;
+        }
+        .pi3{
+            top: 0px;
+            left: 597px;
+            position: absolute;
+        }
+        .pi4{
+            position: absolute;
+            top: 0px;
+            left: 890px;
+        }
+    }
+}
+
+.chairs{
+    width: 1150px;
+    height: 30px;
+    margin-top: 1983px;
+    position: absolute;
+    font-size: 14px;
+    color: rgb(163, 157, 157);
+    ;
+    .chair1{
+        position: absolute;
+    }
+    .chair2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .chair3{
+        left: 587px;
+        position: absolute;
+    }
+    .chair4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.types{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2010px;
+    position: absolute;
+    font-size: 20px;
+    ;
+    .type1{
+        position: absolute;
+    }
+    .type2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .type3{
+        left: 587px;
+        position: absolute;
+    }
+    .type4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.costs{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2046px;
+    position: absolute;
+    font-size: 18px;
+    color: rgb(101, 212, 11);
+    .cost1{
+        position: absolute;
+    }
+    .cost2{
+        top: 0px;
+        left: 293px;
+        position: absolute;
+    }
+    .cost3{
+        left: 587px;
+        position: absolute;
+    }
+    .cost4{
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.dels{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2046px;
+    position: absolute;
+    font-size: 18px;
+    color: grey;
+    .del1{
+        left: 55px;
+        position: absolute;
+    }
+    .del2{
+        top: 0px;
+        left: 345px;
+        position: absolute;
+    }
+    .del3{
+        left: 645px;
+        position: absolute;
+    }
+    .del4{
+        position: absolute;
+        left: 935px;
+    }
+}
+
+.ratings{
+    width: 1150px;
+    height: 30px;
+    margin-top: 2055px;
+    position: absolute;
+   
+    .rating1{
+        left: 195px;
+        position: absolute;
+    }
+    .rating2{
+        top: 0px;
+        left: 490px;
+        position: absolute;
+    }
+    .rating3{
+        left: 785px;
+        position: absolute;
+    }
+    .rating4{
+        position: absolute;
+        left: 1080px;
+    }
+}
+
+// second section
+.world{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1150px;
+    top: 3779px;
+    .heaven{
+
+        &:hover{
+            opacity: .7;
+            .cont{
+                visibility: visible;
+            }
+        }
+        .cont{
+            // background-color: rgb(241, 245, 252);
+            position: absolute;
+            width: 269px;
+            height: 287px;
+            top: 0px;
+            visibility: hidden;
+            .top{
+                position: absolute;
+                top: 50px;
+                left: 180px;
+            }
+            .middle{
+                position: absolute;
+                top: 100px;
+                left: 180px;
+            }
+            .low{
+                position: absolute;
+                top: 150px;
+                left: 180px;
+            }
+            .buttom{
+                position: absolute;
+                top: 200px;
+                left:180px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.rain{
+    position: absolute;
+    display: inline-block;
+    width: 1150px;
+    height: 40px;
+    .new{
+       .new1{
+           top: 0px;
+           position: absolute;
+       }
+       .new2{
+           top: 0px;
+           left: 293px;
+           position: absolute;
+       }
+       .new3{
+           top: 0px;
+           left: 587px;
+           position: absolute;
+       }
+       .new4{
+           position: absolute;
+           top: 0px;
+           left: 880px;
+       }
+    }
+}
+.cloud{
+    position: absolute;
+    width: 1150px;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    .pi1{
+        top: 0px;
+        left: 10px;
+        position: absolute;
+    }
+    .pi2{
+        top: 0px;
+        left: 303px;
+        position: absolute;
+    }
+    .pi3{
+        top: 0px;
+        left: 597px;
+        position: absolute;
+    }
+    .pi4{
+        position: absolute;
+        top: 0px;
+        left: 890px;
+    }
+}
+
+.sunny{
+width: 1150px;
+height: 30px;
+top: 4082px;
+position: absolute;
+font-size: 14px;
+color: rgb(163, 157, 157);
+;
+.sun1{
+    position: absolute;
+}
+.sun2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.sun3{
+    left: 587px;
+    position: absolute;
+}
+.sun4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.snowy{
+width: 1150px;
+height: 30px;
+top: 4104px;
+position: absolute;
+font-size: 20px;
+;
+.snow1{
+    position: absolute;
+}
+.snow2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.snow3{
+    left: 587px;
+    position: absolute;
+}
+.snow4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.storms{
+width: 1150px;
+height: 30px;
+top: 4145px;
+position: absolute;
+font-size: 18px;
+color: rgb(101, 212, 11);
+.storm1{
+    position: absolute;
+}
+.storm2{
+    top: 0px;
+    left: 293px;
+    position: absolute;
+}
+.storm3{
+    left: 587px;
+    position: absolute;
+}
+.storm4{
+    position: absolute;
+    left: 880px;
+}
+}
+
+.sunders{
+width: 1150px;
+height: 30px;
+top: 4145px;
+position: absolute;
+font-size: 18px;
+color: grey;
+.sunder1{
+    left: 50px;
+    position: absolute;
+}
+.sunder2{
+    top: 0px;
+    left: 345px;
+    position: absolute;
+}
+.sunder3{
+    left: 645px;
+    position: absolute;
+}
+.sunder4{
+    position: absolute;
+    left: 935px;
+}
+}
+
+.presses{
+width: 1150px;
+height: 30px;
+top: 4157px;
+position: absolute;
+
+.press1{
+    left: 195px;
+    position: absolute;
+}
+.press2{
+    top: 0px;
+    left: 492px;
+    position: absolute;
+}
+.press3{
+    left: 785px;
+    position: absolute;
+}
+.press4{
+    position: absolute;
+    left: 1080px;
+}
+}
+
